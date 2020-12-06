@@ -98,6 +98,12 @@ PRODUCT_PACKAGES += \
     init.recovery.qcom.rc \
     ueventd.qcom.rc
 
+# DTBO
+LOCAL_DTB := $(LOCAL_PATH)/prebuilt/dtb.img
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_DTB):dtb.img
+
 # Display
 PRODUCT_PACKAGES += \
     libdisplayconfig \
