@@ -24,3 +24,11 @@ allow hal_livedisplay_kona { sysfs_livedisplay_tuneable sysfs_oem }:file rw_file
 
 # Allow hal_livedisplay_kona to set config_prop
 set_prop(hal_livedisplay_kona, config_prop)
+
+allow hal_livedisplay_kona binder_device:chr_file rw_file_perms;
+
+# Allow LiveDisplay to read display props
+get_prop(hal_livedisplay_kona, vendor_display_prop)
+
+# Grant LiveDisplay access over the control nodes
+allow hal_livedisplay_kona sysfs_graphics:file rw_file_perms;

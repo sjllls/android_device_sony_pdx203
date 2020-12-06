@@ -39,7 +39,8 @@ ro.vendor.qti.core_ctl_max_cpu=4
 ro.vendor.qti.core_ctl_min_cpu=2
 
 # Radio
-ro.telephony.default_network=33,22
+ro.telephony.default_network=22,22
+persist.sys.fflag.override.settings_network_and_internet_v2=true
 
 # Touchscreen
 persist.vendor.qti.inputopts.enable=true
@@ -51,6 +52,18 @@ persist.vendor.data.mode=concurrent
 
 # SSR
 persist.vendor.ssr.restart_level=ALL_ENABLE
+
+# SOMC
+ro.semc.ms_type_id=PM-1281-BV
+ro.semc.product.device=AU
+ro.semc.product.model=XQ-AU52
+ro.semc.product.name=Xperia 1 II
+ro.semc.version.fs=GENERIC
+ro.semc.version.fs_revision=59.0.A.8.33
+ro.semc.version.sw=1311-7920
+ro.semc.version.sw_revision=59.0.A.8.33
+ro.semc.version.sw_type=user
+ro.semc.version.sw_variant=GLOBAL4GB-C2
 
 # Vendor
 ro.vendor.qti.va_aosp.support=1

@@ -16,5 +16,5 @@
 */
 -->
 <resources>
-    <dimen name="rounded_corner_radius">4dp</dimen>
+    <dimen name="rounded_corner_radius">1dp</dimen>
 </resources>
