@@ -112,7 +112,9 @@ product/lib64/vendor.qti.ims.rcsconfig@1.0.so
 product/lib64/vendor.qti.ims.rcsconfig@1.1.so
 product/lib64/vendor.qti.imsrtpservice@2.0.so
 product/lib64/vendor.qti.imsrtpservice@2.1.so
--product/priv-app/ims/ims.apk
+
+# IMS APK - From - OnePlus8ProOxygen_15.O.30_OTA_0300_all_2010031617_f9ca0bfd1b
+-product/priv-app/ims/ims.apk|df0b116bec248f6d7402abe3c10379fe7b62759f
 
 # Trusted User Interface
 product/lib/vendor.qti.hardware.tui_comm@1.0.so
