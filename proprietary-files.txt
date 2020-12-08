@@ -1,4 +1,4 @@
-# Stock package version: Sony/XQ-AT51_EEA/XQ-AT51:10/58.0.A.3.31/058000A003003102854466984:user/release-keys
+# Stock package version: Sony/XQ-AT52/XQ-AT52:10/58.0.A.3.224/058000A003022402854466984:user/release-keys
 
 # ANT+
 product/lib64/com.qualcomm.qti.ant@1.0.so
@@ -56,6 +56,59 @@ product/lib64/libdpmtcm.so
 # HotwordEnrollment
 -product/priv-app/HotwordEnrollmentOKGoogleHEXAGON/HotwordEnrollmentOKGoogleHEXAGON.apk
 -product/priv-app/HotwordEnrollmentXGoogleHEXAGON/HotwordEnrollmentXGoogleHEXAGON.apk
+
+# Kernel modules
+vendor/lib/modules/audio_adsp_loader.ko:product/vendor_overlay/29/lib/modules/audio_adsp_loader.ko
+vendor/lib/modules/audio_apr.ko:product/vendor_overlay/29/lib/modules/audio_apr.ko
+vendor/lib/modules/audio_bolero_cdc.ko:product/vendor_overlay/29/lib/modules/audio_bolero_cdc.ko
+vendor/lib/modules/audio_hdmi.ko:product/vendor_overlay/29/lib/modules/audio_hdmi.ko
+vendor/lib/modules/audio_machine_kona.ko:product/vendor_overlay/29/lib/modules/audio_machine_kona.ko
+vendor/lib/modules/audio_mbhc.ko:product/vendor_overlay/29/lib/modules/audio_mbhc.ko
+vendor/lib/modules/audio_native.ko:product/vendor_overlay/29/lib/modules/audio_native.ko
+vendor/lib/modules/audio_pinctrl_lpi.ko:product/vendor_overlay/29/lib/modules/audio_pinctrl_lpi.ko
+vendor/lib/modules/audio_pinctrl_wcd.ko:product/vendor_overlay/29/lib/modules/audio_pinctrl_wcd.ko
+vendor/lib/modules/audio_platform.ko:product/vendor_overlay/29/lib/modules/audio_platform.ko
+vendor/lib/modules/audio_q6.ko:product/vendor_overlay/29/lib/modules/audio_q6.ko
+vendor/lib/modules/audio_q6_notifier.ko:product/vendor_overlay/29/lib/modules/audio_q6_notifier.ko
+vendor/lib/modules/audio_q6_pdr.ko:product/vendor_overlay/29/lib/modules/audio_q6_pdr.ko
+vendor/lib/modules/audio_rx_macro.ko:product/vendor_overlay/29/lib/modules/audio_rx_macro.ko
+vendor/lib/modules/audio_snd_event.ko:product/vendor_overlay/29/lib/modules/audio_snd_event.ko
+vendor/lib/modules/audio_stub.ko:product/vendor_overlay/29/lib/modules/audio_stub.ko
+vendor/lib/modules/audio_swr.ko:product/vendor_overlay/29/lib/modules/audio_swr.ko
+vendor/lib/modules/audio_swr_ctrl.ko:product/vendor_overlay/29/lib/modules/audio_swr_ctrl.ko
+vendor/lib/modules/audio_tx_macro.ko:product/vendor_overlay/29/lib/modules/audio_tx_macro.ko
+vendor/lib/modules/audio_usf.ko:product/vendor_overlay/29/lib/modules/audio_usf.ko
+vendor/lib/modules/audio_va_macro.ko:product/vendor_overlay/29/lib/modules/audio_va_macro.ko
+vendor/lib/modules/audio_wcd938x.ko:product/vendor_overlay/29/lib/modules/audio_wcd938x.ko
+vendor/lib/modules/audio_wcd938x_slave.ko:product/vendor_overlay/29/lib/modules/audio_wcd938x_slave.ko
+vendor/lib/modules/audio_wcd9xxx.ko:product/vendor_overlay/29/lib/modules/audio_wcd9xxx.ko
+vendor/lib/modules/audio_wcd_core.ko:product/vendor_overlay/29/lib/modules/audio_wcd_core.ko
+vendor/lib/modules/audio_wsa881x.ko:product/vendor_overlay/29/lib/modules/audio_wsa881x.ko
+vendor/lib/modules/audio_wsa_macro.ko:product/vendor_overlay/29/lib/modules/audio_wsa_macro.ko
+vendor/lib/modules/br_netfilter.ko:product/vendor_overlay/29/lib/modules/br_netfilter.ko
+vendor/lib/modules/bu520x1nvx.ko:product/vendor_overlay/29/lib/modules/bu520x1nvx.ko
+vendor/lib/modules/camera_sync.ko:product/vendor_overlay/29/lib/modules/camera_sync.ko
+vendor/lib/modules/et580-int.ko:product/vendor_overlay/29/lib/modules/et580-int.ko
+vendor/lib/modules/flash_led.ko:product/vendor_overlay/29/lib/modules/flash_led.ko
+vendor/lib/modules/last_logs.ko:product/vendor_overlay/29/lib/modules/last_logs.ko
+vendor/lib/modules/lcd.ko:product/vendor_overlay/29/lib/modules/lcd.ko
+vendor/lib/modules/llcc_perfmon.ko:product/vendor_overlay/29/lib/modules/llcc_perfmon.ko
+vendor/lib/modules/modules.alias:product/vendor_overlay/29/lib/modules/modules.alias
+vendor/lib/modules/modules.dep:product/vendor_overlay/29/lib/modules/modules.dep
+vendor/lib/modules/mpq-adapter.ko:product/vendor_overlay/29/lib/modules/mpq-adapter.ko
+vendor/lib/modules/mpq-dmx-hw-plugin.ko:product/vendor_overlay/29/lib/modules/mpq-dmx-hw-plugin.ko
+vendor/lib/modules/nxp_pn553_nfc.ko:product/vendor_overlay/29/lib/modules/nxp_pn553_nfc.ko
+vendor/lib/modules/powerkey_forcecrash.ko:product/vendor_overlay/29/lib/modules/powerkey_forcecrash.ko
+vendor/lib/modules/qca_cld3_wlan.ko:product/vendor_overlay/29/lib/modules/qca_cld3_wlan.ko
+vendor/lib/modules/rdbg.ko:product/vendor_overlay/29/lib/modules/rdbg.ko
+vendor/lib/modules/rmnet_perf.ko:product/vendor_overlay/29/lib/modules/rmnet_perf.ko
+vendor/lib/modules/rmnet_shs.ko:product/vendor_overlay/29/lib/modules/rmnet_shs.ko
+vendor/lib/modules/sec_touchscreen.ko:product/vendor_overlay/29/lib/modules/sec_touchscreen.ko
+vendor/lib/modules/slg51000-regulator.ko:product/vendor_overlay/29/lib/modules/slg51000-regulator.ko
+vendor/lib/modules/sony_camera.ko:product/vendor_overlay/29/lib/modules/sony_camera.ko
+vendor/lib/modules/tcs3490.ko:product/vendor_overlay/29/lib/modules/tcs3490.ko
+vendor/lib/modules/texfat.ko:product/vendor_overlay/29/lib/modules/texfat.ko
+vendor/lib/modules/tspp.ko:product/vendor_overlay/29/lib/modules/tspp.ko
 
 # Media
 system/lib/libmmosal.so
